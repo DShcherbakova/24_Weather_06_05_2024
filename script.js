@@ -78,7 +78,7 @@ function displayWeather({
   const sunsetTime = new Date(sunset * 1000);
 
   weatherContainer.innerHTML = `
-    <h2>Weather: ${name}</h2>
+    <h2>${name}</h2>
     <img src="https://openweathermap.org/img/wn/10d@2x.png" />
     <p>Temperature: ${temp}°C</p>
     <p>Description: ${description}</p>
