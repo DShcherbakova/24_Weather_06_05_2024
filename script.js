@@ -86,10 +86,5 @@ function displayWeather({
     <p>Sunrise: ${sunriseTime.getHours()}:${sunriseTime.getMinutes()}:${sunriseTime.getSeconds()}</p>
     <p>Sunset: ${sunsetTime.getHours()}:${sunsetTime.getMinutes()}:${sunsetTime.getSeconds()}</p>
   `;
+  weatherContainer.classList.add('weatherContainer');
 }
-
-// <img src="https://openweathermap.org/img/wn${icon}.png" />
-// Необходимо реализовать погодную аппликацию. Эту задачу мы поделили на 2 этапа:
-// 1. Считать введённую пользователем информацию из input и на основании этой информации
-// сделать запрос на сервере и получить информацию о погоде в данном месте;
-// 2. Отобразить полученный результат на странице
